@@ -80,16 +80,16 @@ export default function myPage() {
                     <LoginForm buttonText="点击登陆"/>
                 </div>
                 <div className={styles.topMenu}>
-                    <TopItem href="/" icon={icon0}><LoginForm buttonText="聊天窗口"/></TopItem>
+                    <TopItem href="/chat" icon={icon0}><LoginForm buttonText="聊天窗口"/></TopItem>
                 </div>
                 <div className={styles.bottomMenu}>
                    {/* 增加一个小横线，颜色为白色 */}
                     {/* <div className={`line ${styles.line}`} id='2'></div> */}
-                    <BottomMenuItem href="/" icon={icon1}><LoginForm buttonText="定制需求"/></BottomMenuItem>
-                    <BottomMenuItem href="/" icon={icon2}><LoginForm buttonText="清除所有会话"/></BottomMenuItem>
-                    <BottomMenuItem href="/" icon={icon3}><LoginForm buttonText="联系客服"/></BottomMenuItem>
-                    <BottomMenuItem href="/" icon={icon4}><LoginForm2 buttonText="升级会员"></LoginForm2></BottomMenuItem>
-                    <BottomMenuItem href="/" icon={icon5}><LoginForm buttonText="订单记录"/></BottomMenuItem>
+                    <BottomMenuItem href="/chat" icon={icon1}><LoginForm buttonText="定制需求"/></BottomMenuItem>
+                    <BottomMenuItem href="/chat" icon={icon2}><LoginForm buttonText="清除所有会话"/></BottomMenuItem>
+                    <BottomMenuItem href="/chat" icon={icon3}><LoginForm buttonText="联系客服"/></BottomMenuItem>
+                    <BottomMenuItem href="/chat" icon={icon4}><LoginForm2 buttonText="升级会员"></LoginForm2></BottomMenuItem>
+                    <BottomMenuItem href="/chat" icon={icon5}><LoginForm buttonText="订单记录"/></BottomMenuItem>
                     <BottomMenuItem href="https://zhuanlan.zhihu.com/p/626196096" icon={icon6}>操作指南</BottomMenuItem>
                     <BottomMenuItem href="/disclaimer" icon={icon7}>免责声明</BottomMenuItem>
                     <BottomMenuItem href="/"></BottomMenuItem>
