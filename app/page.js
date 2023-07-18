@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from './myPage.module.css';  // 引入样式文件
 import LoginForm from 'components/LoginForm.client.js';//引入LoginForm组件
 import LoginForm2 from 'components/LoginForm2.client.js';
+import LoginForm3 from 'components/LoginForm3.client.js';
 import ButtonWithAlert  from 'components/ButtonWithAlert.client.js'; 
 import 'app/globals.css'
 
@@ -72,7 +73,7 @@ export default function myPage() {
                     {/* <div className={`line ${styles.line}`} id='2'></div> */}
                     <BottomMenuItem href="/" icon={icon1}><LoginForm buttonText="定制需求"/></BottomMenuItem>
                     <BottomMenuItem href="/" icon={icon2}><LoginForm buttonText="清除所有会话"/></BottomMenuItem>
-                    <BottomMenuItem href="/" icon={icon3}><LoginForm buttonText="联系客服"/></BottomMenuItem>
+                    <BottomMenuItem href="/" icon={icon3}><LoginForm3 buttonText="联系客服"/></BottomMenuItem>
                     <BottomMenuItem href="/" icon={icon4}><LoginForm2 buttonText="升级会员"></LoginForm2></BottomMenuItem>
                     <BottomMenuItem href="/" icon={icon5}><LoginForm buttonText="订单记录"/></BottomMenuItem>
                     <BottomMenuItem href="https://zhuanlan.zhihu.com/p/626196096" icon={icon6}>操作指南</BottomMenuItem>

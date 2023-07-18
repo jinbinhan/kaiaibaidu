@@ -23,7 +23,7 @@ export default function ImageModal({ buttonText = "Default Text" }) {
         padding: '50px',
         zIndex: '1000',
         width: '350px',
-        height: '300px',
+        height: '330px',
         borderRadius: '20px',
         display: 'flex',
         flexDirection: 'column',
@@ -42,7 +42,8 @@ export default function ImageModal({ buttonText = "Default Text" }) {
     };
 
     const titleStyle = {
-        margin: '60px 0 0px 0',
+        margin: '30px 0 0px 0',
+        marginBottom: '18px',
     };
 
     const imageStyle = {
@@ -57,8 +58,8 @@ export default function ImageModal({ buttonText = "Default Text" }) {
                 <>
                     <div style={overlayStyle} onClick={handleClose}></div>
                     <div style={modalStyle}>
-                        <h2 style={titleStyle}>关注客服</h2>
-                        <img style={imageStyle} src="/images/qrcode.jpg" alt="" />
+                        <h2 style={titleStyle}>微信扫码，联系客服</h2>
+                        <img style={imageStyle} src="/images/gpt.webp" alt="" />
                         <button onClick={handleClose}>关闭</button>
                     </div>
                 </>
